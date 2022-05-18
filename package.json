@@ -4,10 +4,17 @@
   "description": "常用的工具函数",
   "main": "./dist/jadeqs-utils.js",
   "scripts": {
-    "build": "npx webpack --config webpack.config.js",
+    "dev": "webpack serve --open chrome.exe",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["JavaScript", "utils", "js", "Vue", "React"],
+  "keywords": [
+    "JavaScript",
+    "utils",
+    "js",
+    "Vue",
+    "React"
+  ],
   "author": "jade qiu <jousindea@qq.com>",
   "license": "ISC",
   "repository": {
@@ -15,10 +22,9 @@
     "url": "https://github.com/simply-none/js-utils"
   },
   "homepage": "https://github.com/simply-none/js-utils",
-  "dependencies": {
-  },
   "devDependencies": {
     "lodash": "^4.17.21",
+    "ts-loader": "^9.3.0",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2"
   }
