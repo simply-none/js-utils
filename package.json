@@ -1,13 +1,14 @@
 {
   "name": "jadeqs-utils",
-  "version": "1.0.0-alpha.8",
+  "version": "1.0.0-alpha.10",
   "description": "常用的工具函数",
   "main": "./dist/jadeqs-utils.js",
   "scripts": {
-    "build": "webpack",
+    "build": "npx webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "jade qiu",
+  "keywords": ["JavaScript", "utils", "js", "Vue", "React"],
+  "author": "jade qiu <jousindea@qq.com>",
   "license": "ISC",
   "repository": {
     "type": "git",
