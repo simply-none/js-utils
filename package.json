@@ -1,0 +1,24 @@
+{
+  "name": "jadeqs-utils",
+  "version": "1.0.0-alpha.8",
+  "description": "常用的工具函数",
+  "main": "./dist/jadeqs-utils.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jade qiu",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simply-none/js-utils"
+  },
+  "homepage": "https://github.com/simply-none/js-utils",
+  "dependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.21"
+  }
+}
